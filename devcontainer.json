@@ -1,0 +1,13 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "build": {
+    "args": {
+      "VARIANT": "ubuntu-22.04"
+    }
+  }
+}
