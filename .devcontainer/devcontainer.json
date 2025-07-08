@@ -5,9 +5,4 @@
       "extensions": []
     }
   },
-  "build": {
-    "args": {
-      "VARIANT": "ubuntu-22.04"
-    }
-  }
 }
