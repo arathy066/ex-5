@@ -5,4 +5,5 @@
       "extensions": []
     }
   },
+  "postStartCommand" : "bash /workspaces/ex-5-arathy006/codespace_startup_script.sh"
 }
