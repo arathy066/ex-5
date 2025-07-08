@@ -14,6 +14,6 @@ await page.waitForNetworkIdle();
 
 await page.screenshot({
   path: 'auto_screenshot.png'  
-})
+});
 
 await browser.close();
