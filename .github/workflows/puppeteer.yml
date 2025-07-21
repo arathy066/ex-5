@@ -1,7 +1,10 @@
 name: Automated Lighthouse Report
 
 on:
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Deploy Next.js site to Pages"] # 🔁 Replace with the name of the triggering workflow
+    types:
+      - completed
 
 jobs:
   build-and-archive:
